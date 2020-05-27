@@ -15,11 +15,11 @@
         <TextBox x:Name="TbTo" HorizontalAlignment="Left" Margin="138,63,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" local:TextboxExtensions.Placeholder="recipient@anydomain.com"/>
 
         <Label x:Name="LbSmtp" Content="SMTP SERVER" HorizontalAlignment="Left" Margin="33,103,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"/>
-        <TextBox x:Name="Tbsmtp" HorizontalAlignment="Left" Margin="138,103,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" local:TextboxExtensions.Placeholder="smtp.gmail.com"/>
+        <TextBox x:Name="Tbsmtp" HorizontalAlignment="Left" Margin="138,103,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="52" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" local:TextboxExtensions.Placeholder="smtp.gmail.com" />
 
 
-        <Label x:Name="LbSubject" Content="EMAIL SUBJECT" HorizontalAlignment="Left" Margin="33,145,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"/>
-        <TextBox x:Name="TbSubject" HorizontalAlignment="Left" Margin="138,145,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="80" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" local:TextboxExtensions.Placeholder="Subject test from WPFMail"/>
+        <Label x:Name="LbSubject" Content="EMAIL SUBJECT" HorizontalAlignment="Left" Margin="28,172,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"/>
+        <TextBox x:Name="TbSubject" HorizontalAlignment="Left" Margin="138,168,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Height="57" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" local:TextboxExtensions.Placeholder="Subject test from WPFMail"/>
 
 
         <Label x:Name="LbUsername" Content="Username" HorizontalAlignment="Left" Margin="325,23,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"/>
