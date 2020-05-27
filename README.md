@@ -6,7 +6,7 @@ Just fill out the required fields and use it
 
 
 This was done completely under ASP.NET CORE 3.1
-![Simple UI](img/UI.png)
+![Simple UI](WPFMailCore/img/UI.png)
 
 ## Fully Customizable 
 
