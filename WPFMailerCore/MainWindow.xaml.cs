@@ -83,7 +83,7 @@ namespace WPFMailerCore
             catch (Exception ex)
             {
                 SetStatus(
-                    $"{ex.Message}\nIf MultiFactor Authentication is Enabled on your (Gmail or SMTP account) you will need to use an app password instead of your regular password. You can created: https://myaccount.google.com/apppasswords \n else make sure that your password is correct.\nAlso this can be because your public IP is blacklisted, make sure that is clear at https://mxtoolbox.com/blacklists.aspx");
+                    $"{ex.Message}\nIf MultiFactor Authentication is Enabled on your (Gmail or SMTP account) you will need to use an app password instead of your regular password. You can created: https://myaccount.google.com/apppasswords \n else make sure that your password is correct.\nAlso this can be because your public IP is blacklisted, make sure that is clear at https://mxtoolbox.com/blacklists.aspx or because you don't have the public IP on your Exchange Online Connector");
             }
         }
 

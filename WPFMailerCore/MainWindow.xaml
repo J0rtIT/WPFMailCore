@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFMailerCore"
         mc:Ignorable="d"
- Title="WPFMailer by J0rt3g4" Height="599" Width="667">
+ Title="WPFMailer by J0rt3g4" Height="687" Width="667">
     <Grid>
 
         <Label x:Name="LbFrom" Content="From" HorizontalAlignment="Left" Margin="33,23,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"/>
@@ -48,6 +48,6 @@
         <Button x:Name="BtExit" Content="EXIT" HorizontalAlignment="Left" Margin="456,377,0,0" VerticalAlignment="Top" Height="30" Width="150" Click="BtExit_Click" />
 
         <Label x:Name="Lbtatus" Content="STATUS" HorizontalAlignment="Left" Margin="33,444,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100" Height="26"  />
-        <TextBlock x:Name="LbStatus" HorizontalAlignment="Left" Margin="33,470,0,0" Text="READY" TextWrapping="Wrap" VerticalAlignment="Top" Height="81" Width="556" IsEnabled="False"/>
+        <TextBlock x:Name="LbStatus" HorizontalAlignment="Left" Margin="33,470,0,0" Text="READY" TextWrapping="Wrap" VerticalAlignment="Top" Height="176" Width="591" FontStyle="Normal" Foreground="Black" Background="#FFE9E9E9"/>
     </Grid>
 </Window>
