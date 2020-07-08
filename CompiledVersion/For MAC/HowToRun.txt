@@ -1,0 +1,11 @@
+Here's how to run a Nupkg on MAC
+https://stackoverflow.com/questions/48210166/how-to-install-local-nuget-package-nupkg-from-visual-studio-community-for-mac
+
+
+1 Select Preferences from the main menu.
+2 Open NuGet - Sources in the Preferences dialog.
+3 Click the Add button.
+4 In the Add Package Source dialog that opens click the Browse button.
+5 Find the directory with your .nupkg file then click the Open button.
+6 Change the Name of the package source if you want to.
+7 Then click the Add Source button.
