@@ -100,10 +100,12 @@ namespace WPFMailerCore
             message.To.Add(new MailAddress(To));
             message.Subject = EmailSubject;
             message.Body = HtmlBodyString;
+            smtp.UseDefaultCredentials = false;
             smtp.Port = Port;
             smtp.Host = Smtp;
             smtp.EnableSsl = UseSsl;
             message.IsBodyHtml = IsBodyHTml;
+            
 
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.Credentials = (string.IsNullOrEmpty(Username) && string.IsNullOrEmpty(Password))
