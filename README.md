@@ -19,5 +19,5 @@ Just fill out the required fields and use it
 
 
 ## Update 2025
-> I've compiled for ASP.NET 9.0 and it can be downloaded ![here](https://1drv.ms/u/s!AsDC94k7vMVfw5EX3JlBeBYX0KSqcA?e=vggzz8).
-> 
+> I've compiled it for ASP.NET 9.0, which can be downloaded [here](https://1drv.ms/u/s!AsDC94k7vMVfw5EX3JlBeBYX0KSqcA?e=vggzz8)
+
