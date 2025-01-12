@@ -7,7 +7,8 @@ Fully customizable and it works on Windows and MAC.
 Just fill out the required fields and use it 
 
 
-This was done completely under ASP.NET CORE 3.1
+This was done completely under ASP.NET CORE 3.1  -> Updated to .NET 9.0
+
 ![Simple UI](WPFMailerCore/img/UI.png)
 
 ## Fully Customizable 
@@ -17,3 +18,6 @@ This was done completely under ASP.NET CORE 3.1
 
 
 
+## Update 2025
+> I've compiled for ASP.NET 9.0 and it can be downloaded ![here](https://1drv.ms/u/s!AsDC94k7vMVfw5EX3JlBeBYX0KSqcA?e=vggzz8).
+> 
